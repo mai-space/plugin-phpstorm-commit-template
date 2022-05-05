@@ -36,8 +36,15 @@
                 icon="/icons/load.png">
             <keyboard-shortcut
                     keymap="$default"
-                    first-keystroke="control shift"
-                    second-keystroke="C"/>
+                    first-keystroke="control shift K"/>
+            <keyboard-shortcut
+                    keymap="Mac OS X"
+                    first-keystroke="control shift K"
+                    remove="true"/>
+            <keyboard-shortcut
+                    keymap="Mac OS X 10.5+"
+                    first-keystroke="control shift K"
+                    replace-all="true"/>
             <add-to-group group-id="Vcs.MessageActionGroup" anchor="first"/>
         </action>
     </actions>
