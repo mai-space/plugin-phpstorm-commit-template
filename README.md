@@ -5,18 +5,19 @@ Forked from: [[MobileTribe/commit-template-idea-plugin]](https://github.com/Mobi
 
 This plugin allows to create a commit message with the following template:
 
-```
-[<FLAGS>][<TYPE>] <SUBJECT>
+```html
+[&lt;FLAGS&gt;][&lt;TYPE&gt;] &lt;SUBJECT&gt; 
 
-Tasks: (optional)
-<TASK LIST HERE>
+Tasks: (optional) 
+&lt;TASK LIST HERE&gt; 
 
-Breaking Changes: (optional)
-<BREAKING CHANGES HERE>
+Breaking Changes: (optional) 
+&lt;BREAKING CHANGES HERE&gt; 
 
-To-Do's: (optional)
-<TO-DOs HERE>
-refs: #<TICKET NUMBER HERE>
+To-Do's: (optional) 
+&lt;TO-DOs HERE&gt; 
+
+refs: #&lt;TICKET NUMBER HERE&gt;
 ```
 
 From the commit guidelines of TYPO3 [here](https://docs.typo3.org/m/typo3/guide-contributionworkflow/main/en-us/Appendix/CommitMessage.html).
@@ -38,6 +39,6 @@ Install directly from the IDE plugin manager
 
 ## Partner
 
-<img src="src/main/resources/images/iwmedien.png" alias="IW Medien" width="800" height="auto">
+<img src="src/main/resources/images/iwmedien.png" alt="IW Medien Logo" width="3282">
     
     
