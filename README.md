@@ -1,7 +1,7 @@
 # Git commit template Plugin for IntelliJ
 Forked from: [[MobileTribe/commit-template-idea-plugin]](https://github.com/MobileTribe/commit-template-idea-plugin).
 
-Use build Version: 
+### Find downloadable Plugin: [here](https://github.com/Inf166/commit-template-idea-plugin-typo3/blob/master/build/idea-sandbox/plugins/commit-template-idea-plugin-typo3/lib/)
 
 This plugin allows to create a commit message with the following template:
 
