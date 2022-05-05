@@ -1,0 +1,1 @@
+rootProject.name = "commit-template-idea-plugin-typo3"
