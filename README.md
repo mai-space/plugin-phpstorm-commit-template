@@ -6,18 +6,18 @@ Forked from: [[MobileTribe/commit-template-idea-plugin]](https://github.com/Mobi
 This plugin allows to create a commit message with the following template:
 
 ```html
-[&lt;FLAGS&gt;][&lt;TYPE&gt;] &lt;SUBJECT&gt; 
-
-Tasks: (optional) 
-&lt;TASK LIST HERE&gt; 
+[<FLAGS>][<TYPE>] <SUBJECT>
 
 Breaking Changes: (optional) 
-&lt;BREAKING CHANGES HERE&gt; 
+<BREAKING CHANGES HERE>    
+    
+Tasks: (optional) 
+<TASK LIST HERE&>
 
 To-Do's: (optional) 
-&lt;TO-DOs HERE&gt; 
+<TO-DOs HERE>
 
-refs: #&lt;TICKET NUMBER HERE&gt;
+refs: #<TICKET NUMBER HERE>
 ```
 
 From the commit guidelines of TYPO3 [here](https://docs.typo3.org/m/typo3/guide-contributionworkflow/main/en-us/Appendix/CommitMessage.html).
