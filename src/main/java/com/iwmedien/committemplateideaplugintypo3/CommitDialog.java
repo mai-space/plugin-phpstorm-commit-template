@@ -17,8 +17,8 @@ public class CommitDialog extends DialogWrapper {
     CommitDialog(@Nullable Project project, CommitMessage commitMessage) {
         super(project);
         panel = new CommitPanel(commitMessage);
-        setTitle("Commit");
-        setOKButtonText("OK");
+        setTitle("Commit Message Template by TYPO3 Guidelines");
+        setOKButtonText("Apply");
         init();
     }
 

@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.iwmedien.commit-template-idea-plugin-typo3</id>
     <name>Git Commit Template with TYPO3 Commit Guidelines</name>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <vendor email="mai@iwkoeln.de" url="https://www.iwmedien.de">IW Medien</vendor>
 

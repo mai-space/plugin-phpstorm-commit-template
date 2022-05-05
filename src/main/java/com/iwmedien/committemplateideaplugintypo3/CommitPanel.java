@@ -3,7 +3,11 @@ package com.iwmedien.committemplateideaplugintypo3;
 import com.intellij.openapi.project.Project;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.io.File;
+import javax.swing.border.Border;
 import java.util.Enumeration;
 
 /**
@@ -25,6 +29,55 @@ public class CommitPanel {
     private ButtonGroup changeTypeGroup;
 
     CommitPanel(CommitMessage commitMessage) {
+
+        Color lightGrey = new Color(111,111,111,255);
+        Border border = BorderFactory.createLineBorder(lightGrey);
+        longDescription.setBorder(BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10)));
+        breakingChanges.setBorder(BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10)));
+        workInProgress.setBorder(BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10)));
+
+
+        longDescription.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_TAB) {
+                    if (e.getModifiersEx() > 0) {
+                        longDescription.transferFocusBackward();
+                    } else {
+                        longDescription.transferFocus();
+                    }
+                    e.consume();
+                }
+            }
+        });
+        breakingChanges.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_TAB) {
+                    if (e.getModifiersEx() > 0) {
+                        breakingChanges.transferFocusBackward();
+                    } else {
+                        breakingChanges.transferFocus();
+                    }
+                    e.consume();
+                }
+            }
+        });
+        workInProgress.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_TAB) {
+                    if (e.getModifiersEx() > 0) {
+                        workInProgress.transferFocusBackward();
+                    } else {
+                        workInProgress.transferFocus();
+                    }
+                    e.consume();
+                }
+            }
+        });
+
+
         if (commitMessage != null) {
             restoreValuesFromParsedCommitMessage(commitMessage);
         }
