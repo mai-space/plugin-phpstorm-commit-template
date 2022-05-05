@@ -1,3 +1,6 @@
+### Builded Version ###
+!**/build/idea-sandbox/plugins/commit-template-idea-plugin-typo3/lib/*
+
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
