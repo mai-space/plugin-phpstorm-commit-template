@@ -1,5 +1,6 @@
 # Git commit template Plugin for IntelliJ
 Forked from: [[MobileTribe/commit-template-idea-plugin]](https://github.com/MobileTribe/commit-template-idea-plugin).
+I used parts of his code, but heavily modified it and am planning on changing more.
 
 ### Find downloadable Plugin: [here](https://github.com/Inf166/commit-template-idea-plugin-typo3/blob/master/build/idea-sandbox/plugins/commit-template-idea-plugin-typo3/lib/)
 
