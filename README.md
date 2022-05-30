@@ -1,3 +1,15 @@
+<p>
+    <a href="https://badges.pufler.dev" alt="https://badges.pufler.dev">
+        <img alt="https://badges.pufler.dev/visits/inf166/commit-template-idea-plugin-typo3?style=for-the-badge&color=yellow"    src="https://badges.pufler.dev/visits/inf166/commit-template-idea-plugin-typo3?style=for-the-badge&color=yellow">
+    </a>
+    <a href="https://badges.pufler.dev" alt="https://badges.pufler.dev">
+        <img alt="https://badges.pufler.dev/updated/inf166/commit-template-idea-plugin-typo3?style=for-the-badge&color=yellow"    src="https://badges.pufler.dev/updated/inf166/commit-template-idea-plugin-typo3?style=for-the-badge&color=yellow">
+    </a>
+    <a href="https://badges.pufler.dev" alt="https://badges.pufler.dev">
+        <img alt="https://badges.pufler.dev/created/inf166/commit-template-idea-plugin-typo3?style=for-the-badge&color=green" src="https://badges.pufler.dev/created/inf166/commit-template-idea-plugin-typo3?style=for-the-badge&color=green">
+    </a>
+</p>
+
 # Git commit template Plugin for IntelliJ
 Forked from: [[MobileTribe/commit-template-idea-plugin]](https://github.com/MobileTribe/commit-template-idea-plugin).
 I used parts of his code, but heavily modified it and am planning on changing more.
